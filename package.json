@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "path-to-regexp": "^7.1.0",
     "vue": "^3.4.29"
   },
   "devDependencies": {
