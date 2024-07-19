@@ -1,4 +1,4 @@
-import {ConfigEnv, defineConfig, loadEnv, UserConfigExport} from 'vite'
+import {ConfigEnv, loadEnv, UserConfigExport} from 'vite';
 import {resolve} from 'path'
 import * as process from "process";
 // https://vitejs.dev/config/

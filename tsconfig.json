@@ -3,6 +3,7 @@
     "target": "esnext",
     /** https://cn.vitejs.dev/guide/features.html#typescript-compiler-options */
     "useDefineForClassFields": true,
+    "moduleResolution": "NodeNext",
     "module": "bundler",
     "strict": true,
     "jsx": "preserve",
