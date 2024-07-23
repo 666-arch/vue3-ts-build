@@ -4,6 +4,7 @@
     /** https://cn.vitejs.dev/guide/features.html#typescript-compiler-options */
     "useDefineForClassFields": true,
     "moduleResolution": "NodeNext",
+    "allowImportingTsExtensions": false,
     "module": "bundler",
     "strict": true,
     "jsx": "preserve",

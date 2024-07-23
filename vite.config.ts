@@ -2,11 +2,11 @@ import {ConfigEnv, loadEnv, UserConfigExport} from 'vite';
 import {resolve} from "path"
 import * as process from "process";
 import vue from "@vitejs/plugin-vue";
-import VueJsx from "@vitejs/plugin-vue-jsx";
-import { createSvgIconsPlugin } from "vite-plugin-svg-icons";
 import UnoCSS from "unocss/vite"
 import svgLoader from "vite-svg-loader"
 import * as path from "path";
+import VueJsx from "@vitejs/plugin-vue-jsx";
+import { createSvgIconsPlugin } from "vite-plugin-svg-icons";
 
 // https://vitejs.dev/config/
 export default ({mode}: ConfigEnv): UserConfigExport => {
@@ -33,7 +33,7 @@ export default ({mode}: ConfigEnv): UserConfigExport => {
             //代理设置
             proxy: {
                 "/api/v1": {
-                    target: "",
+                    target: "https://mock.mengxuegu.com/mock/63218b5fb4c53348ed2bc212",
                     ws: true,
                     //是否允许跨域
                     changeOrigin: true
